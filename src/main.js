@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Layer from './plugin/layer/index'
+import Layer from './lib/layer/index'
 
 Vue.use(Layer)
 
