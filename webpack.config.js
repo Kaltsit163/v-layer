@@ -2,12 +2,12 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/plugin/layer/index.js',
+  entry: './src/lib/layer/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'v-layer.js',
-    library: 'vueLayer',
+    library: 'VLayer',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
